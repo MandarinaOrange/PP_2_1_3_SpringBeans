@@ -6,7 +6,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class AnimalsCage {
 
-    @Autowired
+   @Autowired
+
     private Animal animal;
 
     public void whatAnimalSay() {
