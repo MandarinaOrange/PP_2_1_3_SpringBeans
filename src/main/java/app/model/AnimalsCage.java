@@ -9,14 +9,13 @@ import org.springframework.stereotype.Component;
 public class AnimalsCage {
 
     @Autowired
-    //@Qualifier("Dog") либо без примари и с qualifier
+
 
     private Animal animal;
 
 
 
     @Autowired
-    @Qualifier("Timer")
     private Timer timer;
 
     public void whatAnimalSay() {
